@@ -1,0 +1,28 @@
+.contact tr {
+  height: 7rem;
+}
+.contact th {
+  width: 150px;
+  text-align: right;
+}
+.contact .userform {
+  width: 480px;
+  margin-left: 10px;
+}
+.content p {
+font-size: 3rem;
+}
+.content .button {
+  padding: 10px;
+  color: #fff;
+  background-color: #008B8B;
+}
+.btn_submit {
+  text-align: center;
+}
+.seibetu {
+  margin-left: 10px;
+}
+.btn_submit :hover {
+  opacity: 0.6;
+}
