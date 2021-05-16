@@ -4,14 +4,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/company.css">
     <title>株式会社DIVE</title>
   </head>
   <body>
     <div class="container">
       <header class="header clearfix">
         <a href="index.html">
-          <img src="./css/images/logo.png" class="logo_image">
+          <img src="./images/logo.png" class="logo_image">
         </a>
         <nav>
           <ul class="top_menu clearfix">
@@ -22,54 +22,45 @@
           </ul>
         </nav>
       </header>
-      <img src="./css/images/contact.png" class="image_area">
+      <img src="./images/company.png" class="image_area">
       <div class="wrapper clearfix">
         <aside class="side_menu">
           <nav>
             <ul>
               <li><a href="business.html">事業内容</a></li>
-              <li><a href="company.html">会社概要</a></li>
-              <li class="point"><a href="contact.html">お問い合わせ</a></li>
+              <li class="point"><a href="company.html">会社概要</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
             </ul>
           </nav>
         </aside>
         <article class="content">
-          <form action="cgi-bin/formmail.cgi" method="post">
-          <table class="contact">
+          <table class="company">
             <tr>
-              <th>お名前</th>
-              <td><input type="text" name="name" class="userform"></td>
+              <th>商号</th>
+              <td>株式会社DIVE</td>
             </tr>
             <tr>
-              <th>メールアドレス</th>
-              <td><input type="text" name="name" class="userform"></td>
+              <th>所在地</th>
+              <td>〒111-1111　東京都渋谷区</td>
             </tr>
             <tr>
-                <th>性別</th>
-              <td>
-                <div class="seibetu">
-                <input type="radio" name="sex" value="male">男
-                <input type="radio" name="sex" value="female">女
-                <input type="radio" name="sex" value="female">その他
-                </div>
-              </td>
+              <th>設立年月日</th>
+              <td>2015年1月1日</td>
             </tr>
             <tr>
-              <th>お問い合わせ内容</th>
-              <td><textarea name="kanso" class="userform"></textarea></td>
+              <th>資本金</th>
+              <td>200万円</td>
+            </tr>
+            <tr>
+              <th>従業員</th>
+              <td>10名</td>
             </tr>
           </table>
-          <div class="btn_submit">
-            <p>
-              <input type="submit" value="送信" class="button">
-            </p>
-          </div>
-          </form>
         </article>
-      </div>
       </div>
       <footer class="footer">
         <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
       </footer>
+    </div>
   </body>
   </html>

@@ -50,6 +50,7 @@ ul.top_menu {
 .wrapper {
   margin-top: 10px;
   padding-bottom: 100px;
+  background-image: url("./images/banner04.png");
 }
 .side_menu {
   width: 300px;
